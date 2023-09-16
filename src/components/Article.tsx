@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Article({
   imgUrl,
   imgAlt,
@@ -13,7 +15,7 @@ export default function Article({
     <article className="white-bg border-radius-10 p-10">
       <div className="img-container">
         <a href="">
-          <img className="border-radius-10" src={imgUrl} alt={imgAlt} />
+          <Image className="border-radius-10" src={imgUrl} width={500} height={500} alt={imgAlt} />
         </a>
       </div>
       <div className="article-body">
