@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import '@/styles/globals.css'
+import '@/styles/common.css'
+import '@/styles/container.css'
+import '@/styles/color.css'
 
 export const metadata: Metadata = {
   title: 'Hà Hoàng Nhật',
@@ -15,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <div className="container d-flex flex-col ptb-30 h-100">{children}</div>
+      </body>
     </html>
   )
 }

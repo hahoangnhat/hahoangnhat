@@ -1,0 +1,21 @@
+.container {
+  width: 55%;
+  margin: 0 auto;
+}
+
+/* Flex */
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
