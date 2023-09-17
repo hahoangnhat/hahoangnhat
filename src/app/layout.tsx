@@ -1,8 +1,5 @@
 import type { Metadata } from 'next'
 import '@/styles/globals.css'
-import '@/styles/common.css'
-import '@/styles/container.css'
-import '@/styles/color.css'
 
 export const metadata: Metadata = {
   title: 'Hà Hoàng Nhật',
@@ -17,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="container d-flex flex-col ptb-30 h-100">{children}</div>
+        <div className="d-flex flex-col">{children}</div>
       </body>
     </html>
   )
