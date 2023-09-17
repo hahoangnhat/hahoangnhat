@@ -2,21 +2,21 @@
 
 ## CSS
 ### 1. Flexbox
-| Class                          | Equals to                               |
-| ------------------------------ | --------------------------------------- |
-| d-flex                         | display: flex;                          |
-| flex-col                       | flex-direction: column;                 |
-| flex-row                       | flex-direction: row;                    |
-| justify-content-between        | justify-content: space-between;         |
-| justify-content-center         | justify-content: center;                |
-| flex-grow-1                    | flex-grow: 1                            |
+| Class                          | Equals to                                                     |
+| ------------------------------ | ------------------------------------------------------------- |
+| d-flex                         | <pre lang="css">display: flex;</pre>                          |
+| flex-col                       | <pre lang="css">flex-direction: column;</pre>                 |
+| flex-row                       | <pre lang="css">flex-direction: row;</pre>                    |
+| justify-content-between        | <pre lang="css">justify-content: space-between;</pre>         |
+| justify-content-center         | <pre lang="css">justify-content: center;</pre>                |
+| flex-grow-1                    | <pre lang="css">flex-grow: 1;</pre>                           |
 
 ### 2. Width
-| Class                          | Equals to                               |
-| ------------------------------ | --------------------------------------- |
-| w-100                          | width: 100%;                            |
+| Class                          | Equals to                                                     |
+| ------------------------------ | ------------------------------------------------------------- |
+| w-100                          | <pre lang="css">width: 100%;</pre>                            |
 
 ### 3. Height
-| Class                          | Equals to                               |
-| ------------------------------ | --------------------------------------- |
-| h-100                          | height: 100%;                           |
+| Class                          | Equals to                                                     |
+| ------------------------------ | ------------------------------------------------------------- |
+| h-100                          | <pre lang="css">height: 100%;</pre>                           |
