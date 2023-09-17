@@ -4,23 +4,28 @@ export default function Article({
   imgUrl,
   imgAlt,
   title,
-  description
+  description,
+  updateDate
 }: {
   imgUrl: string,
   imgAlt: string,
   title: string,
-  description: string
+  description: string,
+  updateDate: string
 }) {
   return (
-    <article className="white-bg border-radius-10 p-10">
-      <div className="img-container">
+    <article className="d-flex gap-20 white-bg border-radius-10 p-20">
+      <div>
         <a href="">
-          <Image className="border-radius-10" src={imgUrl} width={500} height={500} alt={imgAlt} />
+          <Image className="border-radius-10" src={imgUrl} width={200} height={200} alt={imgAlt} />
         </a>
       </div>
-      <div className="article-body">
-        <div className="article-title">{title}</div>
-        <div className="article-description">{description}</div>
+      <div className="d-flex flex-col h-200-px">
+        <div className="font-weight-600 font-size-30 pb-15"><a href="" className="link limit-txt-line-2">{title}</a></div>
+        <div className="flex-grow-1">
+          <div className="limit-txt-line-4">{description}</div>
+        </div>
+        <div>{updateDate}</div>
       </div>
     </article>
   )

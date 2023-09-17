@@ -7,8 +7,24 @@
   height: 100%;
 }
 
-.p-10 {
-  padding: 10px;
+.h-50-px {
+  height: 50px;
+}
+
+.h-200-px {
+  height: 200px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
 }
 
 .ptb-30 {
@@ -45,4 +61,29 @@
 /* Border */
 .border-radius-10 {
   border-radius: 10px;
+}
+
+/* Text */
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-size-30 {
+  font-size: 30px;
+}
+
+.limit-txt-line-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.limit-txt-line-4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
 }

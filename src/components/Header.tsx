@@ -24,7 +24,7 @@ export default function Header({ activeItem }: { activeItem: String }) {
   })
 
   return (
-    <header className="w-100">
+    <header className="w-100 pb-15">
       <nav>
         <div className="d-flex gap-20">
           {listItem}
