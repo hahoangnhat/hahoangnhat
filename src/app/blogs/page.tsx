@@ -33,7 +33,7 @@ export default function Blog() {
   return (
     <>
       <Header activeItem="2" />
-      <main className="flex-grow-1 d-flex flex-col gap-20">
+      <main>
         {
           articles.map(article => {
             return (

@@ -14,16 +14,16 @@ export default function Article({
   updateDate: string
 }) {
   return (
-    <article className="d-flex gap-20 white-bg border-radius-10 p-20">
+    <article>
       <div>
         <a href="">
-          <Image className="border-radius-10" src={imgUrl} width={200} height={200} alt={imgAlt} />
+          <Image src={imgUrl} width={200} height={200} alt={imgAlt} />
         </a>
       </div>
-      <div className="d-flex flex-col h-200-px">
-        <div className="font-weight-600 font-size-30 pb-15"><a href="" className="link limit-txt-line-2">{title}</a></div>
-        <div className="flex-grow-1">
-          <div className="limit-txt-line-4">{description}</div>
+      <div>
+        <div><a href="">{title}</a></div>
+        <div>
+          <div>{description}</div>
         </div>
         <div>{updateDate}</div>
       </div>

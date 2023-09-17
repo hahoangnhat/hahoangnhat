@@ -16,17 +16,16 @@ export default function Header({ activeItem }: { activeItem: String }) {
 
   const listItem = navList.map(item => {
     return (
-      <a key={item.itemId} href={item.itemUrl}
-        className={`txt-decoration-none link`}>
-        < div className={`ptb-6 mtb-15 ${item.itemId == activeItem ? 'active' : ''}`}>{item.itemName}</div>
+      <a key={item.itemId} href={item.itemUrl}>
+        < div className={`${item.itemId == activeItem ? 'active' : ''}`}>{item.itemName}</div>
       </a >
     )
   })
 
   return (
-    <header className="w-100 pb-15">
+    <header>
       <nav>
-        <div className="d-flex gap-20">
+        <div>
           {listItem}
         </div>
       </nav>
